@@ -1,0 +1,152 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+header {
+	background-image: url(../img/top_bg.jpg);
+	min-height: 644px;
+	background-repeat: repeat-x;
+	background-position: top center;
+	position: relative;
+	font-family: "BebasBold";
+}
+
+.top_line {
+	min-height: 97px;
+	box-shadow: rgba(255, 255, 255, 0.3) 0 0 0 1px;
+	-webkit-box-shadow: rgba(255, 255, 255, 0.3) 0 0 0 1px;
+	/* position: absolute; */
+	/* top: 0; */
+	width: 100%;
+	background-color: rgba(0, 0, 0, .6);
+	padding: 22px 0;
+}
+
+.top_line a {
+	font-size: 21px;
+	border-bottom: #fff dashed 1px;
+	transition: all .25s;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+}
+
+.top_line a:hover {
+	border-bottom: transparent 1px dashed;
+}
+
+.top_addr {
+	padding-left: 50px;
+	background-image: url(../img/top_map.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	line-height: 26px;
+}
+
+.top_addr strong {
+	display: block;
+	color: #d12f22;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 31px;
+	font-family: "BebasBold";
+}
+
+header a {
+	color: #fff;
+}
+
+.ta_right {
+	background-image: none;
+	padding-left: 0;
+	text-align: right;
+}
+
+.ta_right span {
+	color: #fff;
+}
+
+header h1 {
+	text-align: center;
+	color: #fff;
+	margin-top: 68px;
+	font-size: 40px;
+	text-shadow: rgba(0, 0, 0, .55) 0 3px;
+	font-family: 'BebasRegular';
+}
+
+.button {
+	display: inline-block;
+	background-color: #d12f22;
+	height: 50px;
+	vertical-align: middle;
+	line-height: 50px;
+	padding: 0 25px;
+	font-size: 20px;
+	border-bottom: 4px solid #AC160A;
+}
+header .button {
+	margin-right: 20px;
+}
+
+.st_button {
+	line-height: 18px;
+	padding-top: 7px;
+	text-align: left;
+	padding-left: 60px;
+	background-image: url(../img/camera_icon.png);
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+
+.buttons_top {
+	position: absolute;
+	width: 100%;
+	bottom: 32px;
+}
+
+.button:hover {
+	background-color: #e64437;
+}
+
+.button:active {
+	background-color: #b81609;
+}
