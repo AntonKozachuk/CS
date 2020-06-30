@@ -15,14 +15,15 @@
 	opacity: 1;
 }
 
-body input:focus:required:invalid,
+/* body input:focus:required:invalid,
 body textarea:focus:required:invalid {
 	
 }
 body input:required:valid,
 body textarea:required:valid {
 	
-}
+} */
+
 body {
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
@@ -444,7 +445,7 @@ p.h_descr {
 .s_bottom img {
 	max-width: 90%;
 	display: block;
-	position: absolute;
+	position: relative;
 }
 
 .s_bottom {
