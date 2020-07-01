@@ -30,20 +30,24 @@ body {
 	min-width: 320px;
 	position: relative;
 }
+
 .hidden {
 	display: none;
 }
+
 .carousel img {
 	width: 100%;
 	height: auto;
 }
+
 .parallax {
 	background-attachment: fixed;
 	background-position: 50% 0;
 	position: relative;
 }
+
 header {
-	background-image: url(../img/top_bg.jpg);
+	background-image: url(../img/man-in-black-t-shirt-and-blue-denim-jeans-standing-near-4489721.jpg);
 	min-height: 644px;
 	background-repeat: repeat-x;
 	background-position: top center;
@@ -126,6 +130,7 @@ header h1 {
 	color: #fff;
 	font-family: 'BebasBold';
 }
+
 header .button {
 	margin-right: 20px;
 }
@@ -262,7 +267,7 @@ article h2 {
 }
 
 .mc_item_wrap {
-	margin-left: 30px;
+	margin-left: 20px;
 	width: 160px;
 	display: inline-block;
 	text-align: center;
