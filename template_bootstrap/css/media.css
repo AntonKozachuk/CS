@@ -35,8 +35,21 @@
         margin-left: 18px;
     }
 
+    .sb_header h2{
+        font-size: 31px;
+    }
+
+    .s_bottom img {
+        margin-left: 50px;
+    }
+
     footer a {
-        padding: 0 10px;
+        padding: 0 20px;
+        padding-left: 50px;
+    }
+
+    footer .container {
+        margin: 20px;
     }
 }
 
@@ -49,7 +62,8 @@
     }
     
     .top_mnu ul {
-        padding: 0 2% 0 2%;
+        padding: 0;
+        margin-left: 30px;
     }
 
     .mc_wrap {
@@ -57,13 +71,12 @@
         margin-left: 50px;
     }
 
-    .mc_item_wrap {
-        margin-left: 80px;
-        margin-top: 20px;
-    }
+   .mc_item_wrap {
+        margin: 30px 0 0 65px;
+    }    
 
     .mc_item_wrap:nth-child(1) {
-        margin-left: 80px;
+        margin-left: 65px;
     }
 
     footer a {
@@ -113,6 +126,10 @@
 
     .main_cats .container {
         width: 90%;
+    }
+
+    footer {
+        padding-left: 100px;
     }
 
 }
