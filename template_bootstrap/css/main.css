@@ -438,6 +438,7 @@ p.h_descr {
 .hi_item img {
 	max-width: 100%;
 	border-top: 8px solid #AC160A;
+	height: 60%;
 }
 
 .hi_item {
