@@ -1,7 +1,7 @@
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) and (max-width : 479px) {
     .top_addr strong {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .top_line a {
@@ -16,6 +16,8 @@
     .buttons_top {
         margin-left: 5%;
     }
+    
+    
 
     header {
         min-height: 544px;
@@ -33,26 +35,53 @@
     .top_line .container {
         width: 90%;
     }
+
+    .top_addr strong {
+        font-size: 25px;
+    }
+
+    .top_line a {
+        font-size: 15px;
+    }
     
     .top_mnu ul {
         padding: 0;
-        margin-left: 17px;
+        display: flex;
+        justify-content: center;
     }
 
     .top_mnu a {
-        padding: 0 20px 0 50px;
+        padding: 0 10px 0 40px;
+        font-size: 15px;
+        background-position: 10px -6px;
+    }
+
+    .top_mnu li:nth-child(2) a{
+        background-position: 10px -55px;
+    }
+    
+    .top_mnu li:nth-child(3) a{
+        background-position: 17px 17px;
+    }
+    
+    .top_mnu li:nth-child(4) a{
+        background-position: 5px -103px;
+    }
+    
+    .top_mnu li:nth-child(5) a{
+        background-position: 10px -162px;
     }
 
     .buttons_top {
         margin-left: 15%;
     }
 
-    .top_mnu ul {
-        margin-left: 15%;
-    }
+    .mc_item_wrap {
+        margin: 30px 18px 0 18px;
+    }    
 
-    .top_mnu li:nth-child(4) {
-        margin-left: 5%;
+    .mc_item_wrap:nth-child(1) {
+        margin-left: 18px;
     }
     
     .s_black h2::before, 
@@ -97,7 +126,7 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) and (max-width : 992px) {
+@media only screen and (min-width : 768px) and (max-width : 991px) {
     .top_line .container {
         width: 90%;
     }
@@ -142,7 +171,7 @@
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) and (max-width : 1200px) {
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
 
     header {
         background-repeat: no-repeat;
